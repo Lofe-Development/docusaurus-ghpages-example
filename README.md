@@ -1,12 +1,12 @@
 # docusaurus-ghpages-example
 
-An example of building a [Docusaurus](https://docusaurus.io/) website with Gradle and deploying it to GitHub Pages.
+An example of building a [Docusaurus](https://docusaurus.io/) website with [Gradle](https://www.gradle.org) and deploying it to GitHub Pages.
 
 ## Building the Site
 TBD
 
 ## Deploying the Site
-TBDf
+TBD
 
 ## License
 MIT License

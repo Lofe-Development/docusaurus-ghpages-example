@@ -3,10 +3,23 @@
 An example of building a [Docusaurus](https://docusaurus.io/) website with [Gradle](https://www.gradle.org) and deploying it to GitHub Pages.
 
 ## Building the Site
-TBD
+Run the following command to build the site:
 
-## Deploying the Site
-TBD
+    ./gradlew clean buildSite
+
+## Serving the Site Locally
+To view website changes locally before committing to Github, run the following command:
+
+    ./gradlew runSite
+
+## Deploying the Site to GitHub Pages
+Follow the steps below to build the site and deploy it to GitHub pages:
+
+1. Run the following command to build the site and stage it for release:
+
+        ./gradlew releaseSite
+
+2. Commit the changes to the `master` branch in GitHub.
 
 ## License
 MIT License

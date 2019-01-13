@@ -2,6 +2,11 @@
 
 An example of building a [Docusaurus](https://docusaurus.io/) website with [Gradle](https://www.gradle.org) and deploying it to GitHub Pages.
 
+## Prerequisites
+Serving the example application with Github Pages requires that Github Pages has been activated for the repository and it is configured to serve content from the `/docs` folder.
+
+![github pages configuration](ghpages_config.png)
+
 ## Building the Site
 Run the following command to build the site:
 

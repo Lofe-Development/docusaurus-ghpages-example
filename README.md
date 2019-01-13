@@ -17,7 +17,7 @@ Follow the steps below to build the site and deploy it to GitHub pages:
 
 1. Run the following command to build the site and stage it for release:
 
-        ./gradlew releaseSite
+        ./gradlew deploySite
 
 2. Commit the changes to the `master` branch in GitHub.
 

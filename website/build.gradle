@@ -3,3 +3,16 @@ plugins {
     id 'distribution'
     id 'com.moowork.node' version '1.2.0'
 }
+
+npm_start.dependsOn npmInstall
+
+task runSite(dependsOn: npm_start) {}
+
+task buildSite(type: Copy, dependsOn: npm_run_build) {
+    from "${project.buildDir}/test-site"
+    into "${rootProject.projectDir}/docs"
+}
+
+clean {
+    delete 'node_modules'
+}
